@@ -1,5 +1,4 @@
 package com.training.myapp;
-
 import java.util.Date;
 
 public class PrintDate {
@@ -9,14 +8,15 @@ public class PrintDate {
 	public PrintDate() {
 		// TODO Auto-generated constructor stub
 	}
-
-//	public PrintDate(Date date) {
-//		super();
-//		this.date = date;
-//	}
 	
-	Date d = new Date();
-	d.
+	
+
+	public PrintDate(Date date) {
+		super();
+		this.date = date;
+	}
+
+
 
 	public Date getDate() {
 		return date;
@@ -26,7 +26,4 @@ public class PrintDate {
 		this.date = date;
 	}
 	
-	
-	
-
 }

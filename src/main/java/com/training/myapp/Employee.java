@@ -25,8 +25,6 @@ public class Employee {
 		this.medical = medical;
 		this.pf = basicSalary * 12/100;
 		this.pt = 200;
-		this.netSalary = netSalary;
-		this.grossSalary = grossSalary;
 	}
 
 	public int getEmployeeId() {
