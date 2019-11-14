@@ -1,3 +1,8 @@
+
+	/**
+	 * Training is the super class consists of two child classes and it contains an
+	 * abstract method
+	 */
 package com.training.myapp;
 
 public abstract class Training {
